@@ -1,9 +1,12 @@
+# Aplicação irá gerar os dados de temperatura/clima que irá ser armazenado no banco de dados sqlite
+
 from flask import Flask, jsonify, request
 import random
 import argparse
 
 # sem tempestade python weather_api.py
 # com tempestade python weather_api.py --storm
+# se tiver o parametro storm será indicados dados simulando possibilidade maior de tempestades.
 parser = argparse.ArgumentParser(description="Iniciar com simulação de tempestade.")
 parser.add_argument("--storm", action="store_true", help="Ativar simulação de tempestade.")
 args = parser.parse_args()

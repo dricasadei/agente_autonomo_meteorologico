@@ -1,3 +1,5 @@
+"Código para criar o banco de dados a ser populado posteriormente."
+
 import sqlite3
 
 DB_PATH = "weather_data.db"
