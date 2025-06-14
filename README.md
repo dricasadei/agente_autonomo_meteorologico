@@ -12,3 +12,5 @@ O agente conforme as 10 últimas medições de indicativos climaticos avalia e d
 
 - python weather_agent.py
     - inicializa o agente para ficar verificando os dados climáticos e avaliando a necessidade de envio de email de alerta.
+
+Material referente ao curso: Crie Agentes de Inteligência Artificial: do Zero ao Deploy da Escola de Inteligência Artificial.
