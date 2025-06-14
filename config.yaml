@@ -1,0 +1,12 @@
+openai:
+  api_key: "SUA API KEY"
+
+email:
+  sender: "xxxx"
+  password: "xxxx"
+  receiver: "xxxx"
+  smtp_server: "xxxx"
+  smtp_port: 587
+
+agent:
+  check_interval: 10  # intervalo que o agente irá verificar os dados da api
